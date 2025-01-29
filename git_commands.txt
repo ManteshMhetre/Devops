@@ -1,0 +1,22 @@
+# Navigate to your project directory
+cd /path/to/your/project
+
+# Initialize Git if not already initialized
+git init
+
+# Add your GitHub username and email (configure if not already done)
+git config --global user.name "Mantesh Mhetre"
+git config --global user.email "mhetremantesh26@gmail.com"
+
+# Add the file(s) to the staging area
+git add .
+
+# Commit the changes with a meaningful message
+git commit -m "Initial commit with file upload"
+
+# Add the GitHub repository as the remote origin
+git remote add origin https://github.com/your-username/your-repo-name.git
+
+# Push your changes to GitHub
+git branch -M main
+git push -u origin main
